@@ -1,0 +1,71 @@
+/* .job-list .btn{
+    padding-top: 100px;
+    padding-left: 44%;
+    padding-bottom: 50px;
+
+}
+.joblist .btn a{
+    background-color:white;
+    padding: 15px;
+    border-radius:4px;
+    font-size:14px;
+    font-weight:700;
+    text-decoration: none;
+    border: 3px solid #002f34;
+    color: #002f34;
+    right:0;
+    
+} */
+
+
+
+.load a{
+    background-color:white;
+    padding: 15px;
+    border-radius:10px;
+    font-size:14px;
+    font-weight:700;
+    text-decoration: none;
+    border: 3px solid #002f34;
+    color: #002f34;
+    right:0;
+    transition: transform 0.2s;
+}
+.load{
+    padding-top: 30px;
+    margin-left: 44%;
+    margin-right: 44%;
+
+    padding-bottom: 50px;
+    transition: transform 0.2s;
+
+    
+}
+
+
+.load:hover{
+    transform: scale(1.05);
+    color:#3060ff;
+}
+.load a:hover{
+    color:#3060ff;
+
+}
+
+#load-content{
+    display: none;
+}
+
+#load-content:target{
+    display:grid;
+}
+
+#less{
+    text-decoration: none;
+    color:white;
+    border-bottom: 2px solid white;
+    width: 50px;
+}
+
+
+
